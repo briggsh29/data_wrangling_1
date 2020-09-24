@@ -86,3 +86,9 @@ mutate(litters_df,
       group = str_to_lower(group))
 ```
 
+## Arrange
+
+```{r}
+arrange(litters_df, pups_born_alive)
+```
+
